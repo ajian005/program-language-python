@@ -30,5 +30,16 @@ print(r'hello\nrunoob')     # 在字符串前面添加一个 r，表示原始字
 # sys.stdout.write(x + '\n')
 
 
-input("\n\n按下 enter 键退出，然后按 ctrl+c 键终止。\n\n")
+# input("\n\n按下 enter 键退出，然后按 ctrl+c 键终止。\n\n")
 
+if True:
+    print("1 - 布尔值" )
+else:
+    print("2 - 空值" )
+    print("3 - 数字" )
+
+
+total = 100 + \
+        200 + \
+        300
+print("总数: ", total)
