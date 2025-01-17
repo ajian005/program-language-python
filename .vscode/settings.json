@@ -1,0 +1,8 @@
+{
+    "python.languageServer": "Pylance",  // 确保使用 Pylance
+    "python.autoComplete.showWords": true,  // 启用自动补全
+    "python.autoComplete.addBrackets": true,  // 自动补全括号
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.extraPaths": [],
+    "python.analysis.completeFunctionParens": true // 可根据需要添加额外路径
+  }  
