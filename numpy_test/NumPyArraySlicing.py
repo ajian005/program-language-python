@@ -4,8 +4,9 @@ ndarray对象的内容可以通过索引或切片来访问和修改，与 Python
 import numpy as np
 # ndarray 数组可以基于 0 - n 的下标进行索引，切片对象可以通过内置的 slice 函数，并设置 start, stop 及 step 参数进行，从原数组中切割出一个新数组。
 a = np.arange(10)
+print('a=', a)
 s = slice(2,7,2)   # 从索引 2 开始到索引 7 停止，间隔为2
-print (a[s])
+print ('a[s])=', a[s])
 
 # 以上实例中，我们首先通过 arange() 函数创建 ndarray 对象。 然后，分别设置起始，终止和步长的参数为 2，7 和 2。
 # 我们也可以通过冒号分隔切片参数 start:stop:step 来进行切片操作：
