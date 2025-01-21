@@ -25,5 +25,5 @@ a = np.array([[ 0, 0, 0],
                 [30,30,30]])
 b = np.array([1,2,3])
 bb = np.tile(b, (4, 1))  # 重复 b 的各个维度
-print(bb)
+print('bb=',bb)
 print(a + bb)
