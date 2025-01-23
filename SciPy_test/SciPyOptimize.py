@@ -11,8 +11,10 @@ def eqn(x):
   return x + cos(x)
 
 myroot = root(eqn, 0)
+print("======myroot.x==========")
 print(myroot.x)
 # 查看更多信息
+print("======myroot==========")
 print(myroot)
 
 '''
