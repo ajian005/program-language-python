@@ -4,4 +4,5 @@
 ## 4 seaborn_test seaborn库
 ## 5 SciPy_test SciPy库
 ## 6 pandas_test pandas库
+## [7 FastAPI](FastAPI/FastAPI_readme.md)
 
